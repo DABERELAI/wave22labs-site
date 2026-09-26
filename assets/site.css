@@ -250,4 +250,15 @@ a:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-off
   .legal header p{font-size:17px}.legal h2{font-size:24px}
   .legal p,.legal ul{font-size:16px;line-height:1.65}
 }
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+/* diagram motion control (site.js) */
+.motion-bar{display:flex;justify-content:flex-start;margin:-16px 0 40px}
+.motion-bar--grid{margin:24px 0 0}
+.motion-toggle{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 18px;background:none;border:1px solid #3a3a3a;border-radius:999px;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#c9c9c4;cursor:pointer}
+.motion-toggle:hover{color:#fff;border-color:#8a8a86}
+.motion-toggle:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.motion-toggle svg{display:block;flex:none}
+.motion-toggle .i-play,.motion-toggle.is-paused .i-pause{display:none}
+.motion-toggle.is-paused .i-play{display:block}
+html.motion-paused *{animation-play-state:paused!important}
+@media (max-width:719px){.motion-bar{justify-content:center;margin:-8px 0 32px}.motion-bar--grid{margin:20px 0 0}}
+@media (prefers-reduced-motion:reduce){html:not(.motion-on) *{animation:none!important;transition:none!important}html{scroll-behavior:auto}}

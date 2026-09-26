@@ -18,7 +18,7 @@
 <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&amp;family=Barlow:wght@400;500&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;family=Heebo:wght@400;500;600;700&amp;display=swap">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v=2">
 <style>
 /* ===== DabereLIVE engine — all selectors are prefixed .dl- so they cannot leak ===== */
 .dl-engine{--dl-bg:#0f0f0f;--dl-line:#262626;--dl-text:#ffffff;--dl-muted:#c9c9c4;--dl-dim:#b3b3ae;--dl-faint:#8a8a86;
@@ -98,7 +98,7 @@
 }
 /* reduced motion: captions stay visible, SVG is frozen by the script below */
 @media (prefers-reduced-motion:reduce){
-  .dl-w{animation:none;opacity:1;color:#fff}
+  html:not(.motion-on) .dl-w{animation:none;opacity:1;color:#fff}
 }
 </style>
 
@@ -202,6 +202,6 @@
 </div>
 <div class="ftr__base"><span>© 2026 WAVE22 Labs Ltd. All rights reserved.</span></div>
 </div></footer>
-<script src="/assets/site.js" defer></script>
+<script src="/assets/site.js?v=2" defer></script>
 </body>
 </html>
