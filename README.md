@@ -1,6 +1,6 @@
 # wave22labs.com
 
-The public website of **WAVE22 Labs Ltd.** — the Israeli AI product company behind **DaberelAI** (Hebrew-first dictation) and **DabereLIVE** (live Hebrew captions).
+The public website of **WAVE22 LABS LTD** (brand: WAVE22labs; company no. 515953354) — the Israeli AI product company behind **DaberelAI** (Hebrew-first dictation) and **DabereLIVE** (live Hebrew captions).
 
 - Plain static HTML/CSS with inline SVG animations. There is no build step.
 - Hosted on Cloudflare Pages. Every push to `main` deploys to https://wave22labs.com
@@ -8,4 +8,4 @@ The public website of **WAVE22 Labs Ltd.** — the Israeli AI product company be
 
 Contact: hello@wave22labs.com
 
-© 2026 WAVE22 Labs Ltd. All rights reserved. The content, design and brand assets in this repository may not be reused without permission.
+© 2026 WAVE22 LABS LTD. All rights reserved. The content, design and brand assets in this repository may not be reused without permission.
