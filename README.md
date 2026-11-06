@@ -4,7 +4,7 @@ The public website of **WAVE22 LABS LTD** (brand: WAVE22labs; company no. 515953
 
 - Plain static HTML/CSS with inline SVG animations. There is no build step.
 - Hosted on Cloudflare Pages. Every push to `main` deploys to https://wave22labs.com
-- Pages: `/` · `/daberelai-engine` · `/dabere-live-engine` · `/privacy` · `/terms` · `/accessibility`
+- Pages: `/` · `/daberelai-engine` · `/dabere-live-engine` · `/privacy` · `/dabere-live-privacy` · `/terms` · `/accessibility`
 
 Contact: hello@wave22labs.com
 
